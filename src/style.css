@@ -118,6 +118,7 @@ body p {
 	.phone-absolute {
 		transform: scale(1.2);
 		transform-origin: top;
+		height: 100%;
 	}
 }
 
