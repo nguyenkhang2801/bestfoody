@@ -39,7 +39,7 @@ body p {
 .body {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	/* align-items: center; */
 	height: calc(100% - 26px - 26px);
 }
 
@@ -81,6 +81,7 @@ body p {
 
 .discover {
 	width: 33%;
+	margin-top: 167px;
 }
 
 .discover-text {
@@ -94,6 +95,7 @@ body p {
 
 .coming {
 	width: 33%;
+	margin-top: 298px;
 	text-align: center;
 }
 
@@ -151,6 +153,9 @@ body p {
 	}
 	.body > div {
 		width: 100%;
+	}
+	.discover {
+		margin-top: 0px;
 	}
 	.discover-text {
 		max-width: none;
