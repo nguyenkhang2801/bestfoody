@@ -165,6 +165,13 @@ body p {
 	.coming {
 		margin-top: 24px;
 	}
+	.coming > p:first-child {
+		font-size: 25px;
+	}
+
+	.coming > p:last-child {
+		font-size: 20px;
+	}
 	.footer {
 		text-align: center;
 		margin-top: 40px;
